@@ -18,26 +18,37 @@
     }
 
     .navbar-dark .navbar-nav .nav-link {
-        color: $white;
+        
         @media screen and (min-width: 992px) {
             padding: 8px 15px;
             font-size: 15px;
+            color: $white;
         }
         
         &:hover {
             color: $headline-blue !important;
+            border-color: $nav-blue;
             @media screen and (min-width: 992px) {
                 background-color: $white;
-                border: 1px solid $white;
             }
         }
     }
 
     .nav-link.router-link-exact-active {
-        color: $headline-blue !important;
+        color: $white;
         @media screen and (min-width: 992px) {
-            background-color: $white;
-            border: 1px solid $white; 
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 1px solid $nav-blue;
+            color: $headline-blue !important;
+        }
+    }
+
+    button.navbar-toggler {
+        border-radius: 10px;
+        outline: none;
+
+        &:hover {
+            border-color: rgba(255, 255, 255, 0.3);
         }
     }
 
