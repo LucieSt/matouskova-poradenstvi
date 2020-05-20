@@ -1,0 +1,52 @@
+.nav-component {
+
+    background-color: $nav-blue;
+
+    nav.bg-info {
+        background-color: $nav-blue !important;
+        padding: 20px;
+    }
+
+    .navigation a {
+        @media screen and (min-width: 992px) {
+            border: 1px solid $headline-blue;
+            border-radius: 10px;  
+            margin-left: 10px;
+            color: $white;
+            background-color: $headline-blue;
+        }
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: $white;
+        @media screen and (min-width: 992px) {
+            padding: 8px 15px;
+            font-size: 15px;
+        }
+        
+        &:hover {
+            color: $headline-blue !important;
+            @media screen and (min-width: 992px) {
+                background-color: $white;
+                border: 1px solid $white;
+            }
+        }
+    }
+
+    .nav-link.router-link-exact-active {
+        color: $headline-blue !important;
+        @media screen and (min-width: 992px) {
+            background-color: $white;
+            border: 1px solid $white; 
+        }
+    }
+
+    .name {
+        color: $text-grey;
+    }
+
+    .nav-container {
+        max-width: 1024px;
+        margin: auto;
+    }
+}
