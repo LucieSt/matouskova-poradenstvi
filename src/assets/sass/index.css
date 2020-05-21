@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap");
+#app {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.home-view {
+  color: green;
+}
+
+.references-view {
+  color: red;
+}
+
+.contact-view {
+  color: orange;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  padding: 50px 20px;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.nav-component {
+  background-color: #00B8DB;
+}
+
+.nav-component nav.bg-info {
+  background-color: #00B8DB !important;
+  padding: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-component .navigation a {
+    border: 1px solid #007398;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    background-color: #007398;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nav-component .navbar-dark .navbar-nav .nav-link {
+    padding: 8px 15px;
+    font-size: 15px;
+    color: #FFFFFF;
+  }
+}
+
+.nav-component .navbar-dark .navbar-nav .nav-link:hover {
+  color: #FFFFFF;
+  border-color: #00B8DB;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-component .navbar-dark .navbar-nav .nav-link:hover {
+    color: #007398 !important;
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+}
+
+.nav-component .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-component .navbar-toggler-icon:hover {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-component .nav-link.router-link-exact-active {
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-component .nav-link.router-link-exact-active {
+    background-color: #FFFFFF;
+    border: 1px solid #00B8DB;
+    color: #007398 !important;
+  }
+}
+
+.nav-component button.navbar-toggler {
+  outline: none;
+  border: none;
+}
+
+.nav-component button.navbar-toggler:hover {
+  border: none;
+}
+
+.nav-component .name {
+  color: #49596B;
+}
+
+.nav-component .nav-container {
+  max-width: 1024px;
+  margin: auto;
+}
+/*# sourceMappingURL=index.css.map */
