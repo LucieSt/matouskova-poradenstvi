@@ -1,6 +1,7 @@
 <template>
   <div class="contact-view container">
-    Tady bude kontakt
+    <h1>KONTAKT</h1>
+    <div class="underline"></div>
   </div>
 </template>
 

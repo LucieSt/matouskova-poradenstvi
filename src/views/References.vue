@@ -1,6 +1,7 @@
 <template>
   <div class="references-view container">
-    Tady budou reference
+    <h1>REFERENCE</h1>
+    <div class="underline"></div>
   </div>
 </template>
 

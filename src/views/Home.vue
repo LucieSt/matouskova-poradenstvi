@@ -1,6 +1,7 @@
 <template>
   <div class="home-view container">
-    Tady bude vypsana poradenska cinnost
+    <h1>PORADENSKÁ ČINNOST</h1>
+    <div class="underline"></div>
   </div>
 </template>
 

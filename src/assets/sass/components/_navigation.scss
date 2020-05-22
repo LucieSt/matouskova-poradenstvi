@@ -18,10 +18,12 @@
     }
 
     .navbar-dark .navbar-nav .nav-link {
+
+        color: $text-grey;
         
         @media screen and (min-width: 992px) {
-            padding: 8px 15px;
-            font-size: 15px;
+            padding: 6px 10px;
+            font-size: 14px;
             color: $white;
         }
         
@@ -30,7 +32,7 @@
             border-color: $nav-blue;
             @media screen and (min-width: 992px) {
                 color: $headline-blue !important;
-                background-color: rgba(255, 255, 255, 0.95);
+                background-color: $white;
             }
         }
     }
@@ -42,12 +44,12 @@
         }
     }
 
-    .nav-link.router-link-exact-active {
+    .nav-item a.nav-link.router-link-exact-active {
         color: $white;
         @media screen and (min-width: 992px) {
             background-color: $white;
             border: 1px solid $nav-blue;
-            color: $headline-blue !important;
+            color: $headline-blue;
         }
     }
 
@@ -62,12 +64,41 @@
         }
     }
 
+    button {
+        padding-left: 0;
+        position: absolute;
+        right: 10px;
+        top: 23px;
+    }
+
+    a.navbar-brand {
+        white-space: normal;
+        max-width: 80%;
+    }
+
+    .headline {
+        font-size: 18px;
+        overflow-wrap: normal;
+        span {
+            white-space: nowrap;
+        }
+    }
+
     .name {
-        color: $text-grey;
+        color: $headline-blue;
     }
 
     .nav-container {
         max-width: 1150px;
         margin: auto;
+    }
+
+    .line {
+        @media screen and (max-width: 991px) {
+            width: 100%;
+            height: 1px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            margin: 10px auto;
+        }
     }
 }
