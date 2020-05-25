@@ -12,6 +12,10 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        margin-bottom: 20px;
+        @media screen and (min-width: 830px) {
+            margin-bottom: 50px;
+        }
     }
 
     .intro-text {
@@ -24,9 +28,52 @@
             padding-left: 10px;
             width: 70%;
         }
+        h2 {
+            @media screen and (max-width: 829px) {
+                text-align: center;
+                padding-bottom: 20px;
+            }
+        }
+        p {
+            @media screen and (max-width: 829px) {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    ul {
+        @media screen and (max-width: 829px) {
+            padding-left: 15px;
+        }
     }
 
     .intro-ul {
         font-weight: bold;
+    }
+
+    .coop-ul {
+        @media screen and (min-width: 830px) {
+            width: 80%;
+            margin: auto;
+        }
+    }
+
+    .coop {
+        padding-bottom: 30px;
+        @media screen and (min-width: 830px) {
+            padding-bottom: 60px;
+        }
+
+        h2 {
+            text-align: center;
+            padding-bottom: 30px;
+        }
+    }
+
+    .advice {
+        @media screen and (min-width: 830px) {
+            width: 76%;
+            margin: auto;
+        }
     }
 }
