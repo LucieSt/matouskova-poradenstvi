@@ -4,7 +4,9 @@
 
     nav.bg-info {
         background-color: $nav-blue !important;
-        padding: 20px;
+        @media screen and (min-width: 761px) {
+            padding: 20px;
+        }
     }
 
     .navigation a {
@@ -67,8 +69,13 @@
     button {
         padding-left: 0;
         position: absolute;
-        right: 10px;
-        top: 23px;
+        right: 1px;
+        top: 8px;
+        
+        @media screen and (min-width: 761px) {
+            right: 10px;
+            top: 23px;
+        }
     }
 
     a.navbar-brand {

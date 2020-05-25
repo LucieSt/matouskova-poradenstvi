@@ -1,2 +1,32 @@
 .home-view {
+    img {
+        width: 200px;
+        height: auto;
+        // border: 10px solid $nav-blue;
+        @media screen and (max-width: 829px) {
+            margin-bottom: 30px;
+        }
+    }
+
+    .intro {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .intro-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        @media screen and (min-width: 830px) {
+            padding-left: 10px;
+            width: 70%;
+        }
+    }
+
+    .intro-ul {
+        font-weight: bold;
+    }
 }
