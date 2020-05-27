@@ -1,3 +1,17 @@
 .contact-view {
-    font-family: $montserrat;
+
+    .contact {
+        text-align: center;
+    }
+
+    .second-span {
+        @media screen and (max-width: 300px) {
+            display: block;
+        }
+    }
+
+    .second-part {
+        margin-top: 40px;
+    }
+
 }

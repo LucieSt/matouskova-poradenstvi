@@ -1,2 +1,91 @@
 .references-view {
+
+    .logo {
+        width: 40%;
+        height: auto;
+        text-align: right;
+
+        span {
+            vertical-align: middle;
+            display: inline-block;
+            height: 100%;
+        }
+        @media screen and (max-width: 599px) {
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+    img {
+        width: 160px;
+        vertical-align: middle;
+        @media screen and (min-width: 600px) {
+            padding-right: 5%;
+        }
+    }
+
+    .stevikom {
+        width: 140px;
+        @media screen and (max-width: 599px) {
+            padding-top: 20px;
+        }
+    }
+
+    .ilovehummus {
+        @media screen and (max-width: 599px) {
+            padding-top: 40px;
+        }
+    }
+
+    .fishmarket {
+        @media screen and (max-width: 599px) {
+            padding-top: 20px;
+        }
+    }
+
+    .rybarstvi-chlumec {
+        width: 170px;
+        @media screen and (max-width: 599px) {
+            padding-top: 40px;
+        }
+    }
+
+    .reference-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        @media screen and (min-width: 600px) {
+            height: 130px;
+        }
+    }
+
+    .text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+        
+        @media screen and (min-width: 600px) {
+            width: 55%;
+            margin-bottom: 0;
+        }
+        p {
+            margin: 0;
+            text-align: left;
+            @media screen and (max-width: 599px) {
+                text-align: center;
+            }
+        }
+        .first-p {
+            padding-bottom: 10px;
+            font-weight: bold;
+        }
+    }
+
+    .text-margin {
+        @media screen and (max-width: 599px) {
+            padding-top: 30px;
+        }
+    }
 }
