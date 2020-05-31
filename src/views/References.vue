@@ -5,7 +5,7 @@
 
     <div class="content">
       <section class="reference-container">
-        <div class="logo">
+        <div class="logo made-group-logo">
           <span></span><img class="made-group" src="./../assets/madegroup.png" alt="made-group-logo">
         </div>
         <div class="text">
@@ -14,7 +14,7 @@
         </div>
       </section>
       <section class="reference-container">
-        <div class="logo">
+        <div class="logo gornicky-logo">
           <span></span><img class="gornicky" src="./../assets/gornicky.png" alt="gornicky-logo">
         </div>
         <div class="text">
@@ -23,10 +23,10 @@
         </div>
       </section>
       <section class="reference-container">
-        <div class="logo">
+        <div class="logo stevikom-logo">
           <span></span><img class="stevikom" src="./../assets/stevikom.jpg" alt="stevikom-logo">
         </div>
-        <div class="text text-margin">
+        <div class="text text-stevikom">
           <p class="first-p">STEVIKOM, s.r.o.</p>
           <p>IFS Food, HACCP, SVP/SDP/SHP, BIO</p>
         </div>

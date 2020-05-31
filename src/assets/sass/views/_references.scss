@@ -1,5 +1,9 @@
 .references-view {
 
+    .content {
+        padding-top: 0;
+    }
+
     .logo {
         width: 40%;
         height: auto;
@@ -24,10 +28,18 @@
         }
     }
 
+    .made-group {
+        width: 150px;
+    }
+
+    .gornicky {
+        width: 150px;
+    }
+
     .stevikom {
-        width: 140px;
+        width: 130px;
         @media screen and (max-width: 599px) {
-            padding-top: 20px;
+            padding: 20px 0 0 10px;
         }
     }
 
@@ -50,12 +62,26 @@
         }
     }
 
+    .gornicky-logo {
+        padding-right: 5px;
+    }
+
+    .stevikom-logo {
+        @media screen and (min-width: 600px) {
+            padding-right: 5px;
+        }
+    }
+
+    .made-group-logo {
+        padding-right: 5px;
+    }
+
     .reference-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         @media screen and (min-width: 600px) {
-            height: 130px;
+            height: 120px;
         }
     }
 
@@ -64,7 +90,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         
         @media screen and (min-width: 600px) {
             width: 55%;
@@ -86,6 +112,12 @@
     .text-margin {
         @media screen and (max-width: 599px) {
             padding-top: 30px;
+        }
+    }
+
+    .text-stevikom {
+        @media screen and (max-width: 599px) {
+            padding-top: 20px;
         }
     }
 }

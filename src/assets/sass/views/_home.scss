@@ -47,6 +47,13 @@
         }
     }
 
+    li {
+        @media screen and (max-width: 829px) {
+            padding-bottom: 10px;
+        }
+        padding-bottom: 5px;
+    }
+
     .intro-ul {
         font-weight: bold;
     }
