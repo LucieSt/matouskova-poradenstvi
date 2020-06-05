@@ -1,6 +1,8 @@
 .nav-component {
-
     background-color: $nav-blue;
+    position: sticky;
+    top: 0;
+    width: 100%;
 
     nav.bg-info {
         background-color: $nav-blue !important;
@@ -83,6 +85,10 @@
     a.navbar-brand {
         white-space: normal;
         max-width: 80%;
+
+        @media screen and (min-width: 992px) {
+            max-width: 59%;
+        }
     }
 
     .headline {
