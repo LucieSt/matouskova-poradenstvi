@@ -5,7 +5,7 @@
 
     <div class="content">
       <section class="intro">
-        <img src="./../assets/foto.jpg" alt="profile picture">
+        <div class="intro-img"><img src="./../assets/foto.jpg" alt="profile picture"></div>
         <div class="intro-text">
           <p>
             Nabízím možnost spolupráce provozovatelům potravinářských podniků. Poskytuji pomoc při zavádění
