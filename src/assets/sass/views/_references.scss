@@ -28,6 +28,16 @@
         }
     }
 
+    .aqua-group {
+        width: 200px;
+        @media screen and (max-width: 599px) {
+            padding-top: 5px;
+        }
+        @media screen and (min-width: 600px) {
+            padding-right: 2%;
+        }
+    }
+
     .made-group {
         width: 150px;
     }
