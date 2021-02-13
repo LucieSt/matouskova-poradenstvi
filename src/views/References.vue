@@ -9,7 +9,7 @@
           <span></span><img class="aqua-group" src="./../assets/aquaponia.jpg" alt="aquaponia-logo">
         </div>
         <div class="text text-margin">
-          <p class="first-p">AQUAPONIA, s.r.o.</p>
+          <p class="first-p">AQUAPONIA s.r.o.</p>
           <p>příprava k prvotní certifikaci IFS FOOD<br />HACCP, SVP/SDP/SHP</p>
         </div>
       </section>
